@@ -1,0 +1,44 @@
+# Personalized Book Recommendation System
+
+## Task Title
+**Build a Personalized Book Recommendation System**
+
+## Task Description
+The goal of this task is to create a system that can recommend books to users based on their reading history. The system should utilize collaborative filtering techniques and machine learning algorithms to accurately recommend books that a user might be interested in.
+
+## Requirements
+1. **Data Collection**:
+   - Use the provided dataset of user-book interactions in a CSV file.
+   - Each interaction includes the user ID, book ID, and rating given by the user to the book.
+
+2. **Data Preprocessing**:
+   - Clean and preprocess the data (e.g., handling missing values, encoding categorical features).
+   - Convert the data into a suitable format for machine learning models (e.g., user-item interaction matrix).
+
+3. **Model Training**:
+   - Split the data into training and testing sets.
+   - Train a collaborative filtering model (e.g., matrix factorization, neural collaborative filtering) on the training data to predict user ratings for books.
+
+4. **Model Evaluation**:
+   - Evaluate the performance of the trained model on the testing set using metrics such as RMSE (Root Mean Squared Error) and MAE (Mean Absolute Error).
+
+5. **Deployment**:
+   - Implement a simple web interface where users can input their user ID and get book recommendations.
+   - Use a framework such as Flask or FastAPI for the web interface.
+
+## Tools and Technologies
+- **Programming Language**: Python
+- **Libraries**: Pandas, Scikit-learn, Surprise, Flask/FastAPI
+- **Dataset**: Provided CSV file with user-book interactions
+
+## Additional Information
+- Ensure the code is well-documented with comments and docstrings.
+- Write a brief report summarizing your approach, the models used, and the results obtained.
+
+## Deliverables
+1. **Code**: A Jupyter Notebook containing the entire process from data collection to model deployment.
+2. **Report**: A brief report summarizing the approach, models used, and results obtained.
+
+## Example Usage
+- Input: User ID: 123
+- Output: Recommended Books: ["The Catcher in the Rye", "To Kill a Mockingbird", "1984"]
